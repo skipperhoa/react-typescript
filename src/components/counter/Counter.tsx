@@ -7,7 +7,7 @@ const Counter: React.FC = () => {
             <ItemCounter
                 title="Counter"
                 count={value}
-                fc_decrement={() => setValue(value - 1)}
+                fc_decrement={() => setValue(value + 1)}
                 fc_increment={() => setValue(value + 1)}
             />
         </div>
