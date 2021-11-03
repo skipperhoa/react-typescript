@@ -4,7 +4,7 @@ import Item from './components/Item';
 function App() {
   return (
     <div className="App">
-      <h1>Bacsic React</h1>
+      <h1>Basic React TypeScript</h1>
       <Item />
     </div>
   );
