@@ -14,3 +14,9 @@ export interface Animals {
     Category: string;
 }
 
+export interface Counter {
+    title: string;
+    count: number;
+    fc_increment: () => void;
+    fc_decrement: () => void;
+}

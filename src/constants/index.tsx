@@ -15,3 +15,5 @@ export const HEADER_GET_TOKEN = (token : string)=>{
          'x-access-token': token    
     }
 }
+export const INCRECMENT = 'INCREMENT';
+export const DECREMENT = 'DECREMENT';

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { CALL_API } from '../api';
+import { CALL_API } from '../../api';
 import TextNode from './TextNode';
 
 export default function Item() {
