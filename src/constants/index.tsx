@@ -1,7 +1,4 @@
-export const URL_API = "http://localhost:4001";
-export const ENDPOINT_LOGIN = `${URL_API}/login`;
-export const ENDPOINT_REGISTER = `${URL_API}/register`;
-export const ENDPOINT_WELCOME = `${URL_API}/welcome`;
+export const URL_API = "https://fakestoreapi.com/products";
 export const METHOD_POST ="POST"
 export const METHOD_GET = "GET"
 export const BODY = (_body : Array<any>)=>{return JSON.stringify(_body)}
